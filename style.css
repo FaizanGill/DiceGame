@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* img {
+    width: 100%;
+} */
+
+.maincontainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(59, 65, 65);
+    font-family: 'Alkalami', serif;
+
+}
+
+/* Header */
+
+.top {
+    text-align: center;
+
+}
+
+.text {
+    font-size: 7rem;
+    color: rgb(94, 196, 162);
+}
+
+.text2 {
+    font-size: 2rem;
+    color: rgb(94, 196, 162);
+}
+
+.container {
+    width: 40%;
+    margin-top: 3rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Button */
+
+.btn {
+
+    background-color: rgb(94, 196, 162);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 15px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.btndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: rgba(94, 196, 162, 0.8);
+}
+
+
+/* Responsive */
+
+@media(max-width: 705px) {
+    .container {
+        width: 74%;
+    }
+
+    img {
+        width: 8rem;
+        height: 8rem;
+
+    }
+
+    .text {
+        font-size: 3.5rem;
+        color: rgb(94, 196, 162);
+    }
+
+    .text2 {
+        font-size: 1.5rem;
+        color: rgb(94, 196, 162);
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+}
